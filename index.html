@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>МАГАЗИН ДЕТАЛИ СТИЛЯ «RENAISSANCE»</title>
+  <meta name="description" content="Эксклюзивная лепнина ручной работы в стиле эпохи Возрождения для изысканных интерьеров.">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <div class="logo">
+          <img src="assets/logo.png" alt="Renaissance">
+        </div>
+        <h1 class="site-title">МАГАЗИН ДЕТАЛИ СТИЛЯ «RENAISSANCE»</h1>
+      </div>
+      <nav class="nav" id="mainNav">
+        <a href="#collections">Коллекции</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#catalogs">Каталоги</a>
+        <a href="#cart">Корзина</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="burger" id="burger">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- Главный слайдер -->
+  <section class="hero fade-in">
+    <div class="hero-slider" id="heroSlider">
+      <div class="slide active">
+        <img src="assets/slider/slide1.jpg" alt="Лепнина в интерьере">
+        <div class="slide-content">
+          <h2>Возрождение красоты</h2>
+          <p>Эксклюзивная лепнина ручной работы для изысканных интерьеров</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="assets/slider/slide2.jpg" alt="Карнизы и розетки">
+        <div class="slide-content">
+          <h2>Искусство деталей</h2>
+          <p>Каждая линия — отражение мастерства эпохи Возрождения</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider-dots" id="heroDots"></div>
+  </section>
+
+  <!-- Коллекции -->
+  <section id="collections" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Наши коллекции</h2>
+      <div class="collections-grid">
+        <div class="collection-card" data-name="Модернистик" data-price="0">
+          <img src="assets/collections/modernism.jpg" alt="Модернистик">
+          <h3>Модернистик</h3>
+          <p>Переосмысление советского модернизма в формате архитектурного декора.</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+        <div class="collection-card" data-name="New Art Deco" data-price="0">
+          <img src="assets/collections/new-art-deco.jpg" alt="New Art Deco">
+          <h3>New Art Deco</h3>
+          <p>Коллекция-конструктор для свободы творчества.</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+        <div class="collection-card" data-name="Simple" data-price="0">
+          <img src="assets/collections/simple.jpg" alt="Simple">
+          <h3>Simple</h3>
+          <p>Быстрое решение для интерьера.</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+        <div class="collection-card" data-name="Mauritania" data-price="0">
+          <img src="assets/collections/mauritania.jpg" alt="Mauritania">
+          <h3>Mauritania</h3>
+          <p>Тонкие узоры арабских сказок.</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+        <div class="collection-card" data-name="FAS" data-price="0">
+          <img src="assets/collections/FAS.jpg" alt="FAS">
+          <h3>FAS</h3>
+          <p>Фасадная лепнина</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+        <div class="collection-card" data-name="INT" data-price="0">
+          <img src="assets/collections/INT.jpg" alt="INT">
+          <h3>INT</h3>
+          <p>Интрьерная лепнина</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+        <div class="collection-card" data-name="Perfom" data-price="0">
+          <img src="assets/collections/Perfom.jpg" alt="Perfom">
+          <h3>Perfom</h3>
+          <p>Ударопрочная интрьерная лепнина</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+        <div class="collection-card" data-name="Solution" data-price="0">
+          <img src="assets/collections/Solution.jpg" alt="Solution">
+          <h3>Solution</h3>
+          <p>Лепнина</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+        <div class="collection-card" data-name="New" data-price="0">
+          <img src="assets/collections/New.jpg" alt="New">
+          <h3>New</h3>
+          <p>Классическая лепнина</p>
+          <button class="btn-add-to-cart">Заказать коллекцию</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Галерея -->
+  <section id="gallery" class="section section-light fade-in">
+    <div class="container">
+      <h2 class="section-title">Галерея проектов</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="assets/gallery/g1.jpg" alt="Проект 1"></div>
+        <div class="gallery-item"><img src="assets/gallery/g2.jpg" alt="Проект 2"></div>
+        <div class="gallery-item"><img src="assets/gallery/g3.jpg" alt="Проект 3"></div>
+        <div class="gallery-item"><img src="assets/gallery/g4.jpg" alt="Проект 4"></div>
+        <div class="gallery-item"><img src="assets/gallery/g5.jpg" alt="Проект 5"></div>
+        <div class="gallery-item"><img src="assets/gallery/g6.jpg" alt="Проект 6"></div>
+        <div class="gallery-item"><img src="assets/gallery/g7.jpg" alt="Проект 7"></div>
+        <div class="gallery-item"><img src="assets/gallery/g8.jpg" alt="Проект 8"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Каталоги -->
+  <section id="catalogs" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Скачать каталоги</h2>
+      <div class="catalogs-grid">
+        <div class="catalog-card">
+          <img src="assets/catalogs/preview-modernism.jpg" alt="Модернистик">
+          <h3>Модернистик</h3>
+          <a href="assets/catalogs/modernism.pdf" class="btn-download" download>Скачать PDF</a>
+        </div>
+        <div class="catalog-card">
+          <img src="assets/catalogs/preview-new-art-deco.jpg" alt="New Art Deco">
+          <h3>New Art Deco</h3>
+          <a href="assets/catalogs/new-art-deco.pdf" class="btn-download" download>Скачать PDF</a>
+        </div>
+        <div class="catalog-card">
+          <img src="assets/catalogs/preview-simple.jpg" alt="Simple">
+          <h3>Simple</h3>
+          <a href="assets/catalogs/simple.pdf" class="btn-download" download>Скачать PDF</a>
+        </div>
+        <div class="catalog-card">
+          <img src="assets/catalogs/preview-mauritania.jpg" alt="Mauritania">
+          <h3>Mauritania</h3>
+          <a href="assets/catalogs/mauritania.pdf" class="btn-download" download>Скачать PDF</a>
+        </div>
+        <div class="catalog-card">
+          <img src="assets/catalogs/preview-FAS.jpg" alt="FAS">
+          <h3>FAS</h3>
+          <a href="assets/catalogs/FAS.pdf" class="btn-download" download>Скачать PDF</a>
+        </div>
+        <div class="catalog-card">
+          <img src="assets/catalogs/preview-INT.jpg" alt="FAS">
+          <h3>Интерьерная лепнина</h3>
+          <a href="assets/catalogs/INT.pdf" class="btn-download" download>Скачать PDF</a>
+        </div>
+        <div class="catalog-card">
+          <img src="assets/catalogs/preview-Perfom.jpg" alt="Perfom">
+          <h3>Perfom</h3>
+          <a href="assets/catalogs/Perfom.pdf" class="btn-download" download>Скачать PDF</a>
+        </div>
+        <div class="catalog-card">
+          <img src="assets/catalogs/preview-Solution.jpg" alt="Solution">
+          <h3>Solution</h3>
+          <a href="assets/catalogs/Solution.pdf" class="btn-download" download>Скачать PDF</a>
+        </div><div class="catalog-card">
+          <img src="assets/catalogs/preview-New.jpg" alt="New">
+          <h3>New</h3>
+          <a href="assets/catalogs/New.pdf" class="btn-download" download>Скачать PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Корзина -->
+  <section id="cart" class="section section-light fade-in">
+    <div class="container">
+      <h2 class="section-title">Корзина</h2>
+      <div id="cart-items">
+        <p id="cart-empty">Ваша корзина пуста.</p>
+        <div id="cart-list"></div>
+      </div>
+      <div id="cart-total"></div>
+      <button id="checkout-btn" class="btn" style="display:none;">Оформить заказ</button>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contacts" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Наши магазины</h2>
+      <div class="contacts-grid">
+        <div class="contact-card">
+          <h3>Люблино</h3>
+          <p>ИП Онофрей В.А.</p>
+          <p>г. Москва, метро Люблино,<br>Тихорецкий б-р, д. 1,<br>ТК "Люблинское поле", стр. 2а,<br>павильон А147</p>
+          <p>Тел: +7 (915) 098-63-84<br>+7 (995) 115-41-53</p>
+          <p>Часы работы: с 9:00 до 20:00 ежедневно</p>
+          <a href="https://yandex.ru/maps/?mode=routes&rtt=auto&rtext=~55.675950,37.777163&z=16" target="_blank" class="btn-map">Как доехать</a>
+          <a href="https://wa.me/79150986384" class="whatsapp-btn" target="_blank">Написать в WhatsApp</a>
+        </div>
+        <div class="contact-card">
+          <h3>МКАД 25 км</h3>
+          <p>ИП Онофрей В.А.</p>
+          <p>г. Москва, 25-й км МКАД,<br>владение 4с2,<br>ТК "Конструктор",<br>павильон Б-2.15, Б-2.16</p>
+          <p>Тел: +7 (915) 098-63-84<br>+7 (995) 115-41-53</p>
+          <p>Часы работы: с 9:00 до 20:00 ежедневно</p>
+          <a href="https://yandex.ru/maps/?mode=routes&rtt=auto&rtext=~55.666667,37.638889&z=16" target="_blank" class="btn-map">Как доехать</a>
+          <a href="https://wa.me/79150986384" class="whatsapp-btn" target="_blank">Написать в WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма заявки -->
+  <section id="order" class="section section-light fade-in">
+    <div class="container">
+      <h2 class="section-title">Оставить заявку</h2>
+      <form class="order-form" id="orderForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Email (необязательно)">
+        <input type="tel" name="phone" placeholder="Телефон" required>
+        <textarea name="message" placeholder="Что вас интересует?"></textarea>
+        <button type="submit" class="btn">Отправить заявку</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 МАГАЗИН ДЕТАЛИ СТИЛЯ «RENAISSANCE». Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
